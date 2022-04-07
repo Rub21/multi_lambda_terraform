@@ -9,6 +9,13 @@
             ],
             "Resource": "arn:aws:logs:*:*:*",
             "Effect": "Allow"
+        },
+        {
+            "Action": "s3:*",
+            "Effect": "Allow",
+            "Resource": [
+                "arn:aws:s3:::*/*"
+            ]
         }
     ]
 }
