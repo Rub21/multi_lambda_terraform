@@ -6,5 +6,5 @@ Simple Terrraform tamples to deploy scrpit the ins in the `scripts` folder.
     terraform init
     terraform plan
     terraform apply -auto-approve
-    terraform delete -auto-approve
+    terraform destroy -auto-approve
 ```
