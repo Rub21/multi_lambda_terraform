@@ -16,6 +16,27 @@
             "Resource": [
                 "arn:aws:s3:::*/*"
             ]
+        },
+        {
+            "Action": [
+                "codecommit:GitPull",
+                "codecommit:GitPush",
+                "codecommit:GitBranch",
+                "codecommit:ListBranches",
+                "codecommit:CreateCommit",
+                "codecommit:GetCommit",
+                "codecommit:GetCommitHistory",
+                "codecommit:GetDifferences",
+                "codecommit:GetReferences",
+                "codecommit:BatchGetCommits",
+                "codecommit:GetTree",
+                "codecommit:GetObjectIdentifier",
+                "codecommit:GetMergeCommit"
+            ],
+            "Effect": "Allow",
+            "Resource": [
+                "*"
+            ]
         }
     ]
 }
